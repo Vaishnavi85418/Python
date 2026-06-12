@@ -1,0 +1,14 @@
+students =["sam","Raj","Aman"]
+
+students.append("Rohit")
+students.remove("Raj")
+students.insert(1,"Karan")
+
+print(students)
+print("Total Students:",len(students))
+
+college = ("Chetana","Nagpur",2026)
+print(college.index("Nagpur"))
+print(college.count(2026))
+
+slills ={"Python","Git","Python","AI"}
